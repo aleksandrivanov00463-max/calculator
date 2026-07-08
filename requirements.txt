@@ -15,10 +15,3 @@ Thumbs.db
 *.sqlite3
 settings.ini
 EOF
-
-# requirements.txt
-echo "PyQt5==5.15.11" > requirements.txt
-echo "Pillow>=10.0.0" >> requirements.txt
-
-# README.md
-echo "# Калькулятор площади и периметра" > README.md
