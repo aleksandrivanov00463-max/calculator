@@ -1,17 +1,2 @@
-# .gitignore
-cat > .gitignore << 'EOF'
-__pycache__/
-*.pyc
-*.pyo
-*.db
-*.log
-venv/
-env/
-.venv/
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-*.sqlite3
-settings.ini
-EOF
+cho "PyQt5==5.15.11" > requirements.txt
+echo "Pillow>=10.0.0" >> requirements.txt
